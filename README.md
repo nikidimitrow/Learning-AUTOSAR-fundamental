@@ -11,19 +11,17 @@ The goal is to develop a reference architecture for ECU software, which can over
   
 - [AUTOSAR Application](#application)
    
-- [C++](#cpp)
+- [AUTOSAR RTE](#rte)
     
-- [Common Lisp](#common-lisp)
+- [AUTOSAR BSW](#bsw)
     
-- [Clojure](#clojure)
+- [AUTOSAR Methodology](#methodology)
     
-- [Elixir](#elixir)
+- [AUTOSAR in Practice](#practice)
     
-- [Erlang](#erlang)
+- [Implications and Migration](#implications)
     
-- [Go](#go)
-   
-- [Haskell](#haskell)
+- [Concepts of AUTOSAR 4.x](#concepts)
    
 
 <!-- /MarkdownTOC -->
