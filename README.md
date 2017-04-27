@@ -1,4 +1,4 @@
-# Learning AUTOSAR or how to get started with Automotive Open System Architecture
+# Learning AUTOSAR or how to get started
 
 AUTOSAR (Automotive Open System Architecture) is a standardization initiative of leading automotive OEMs and suppliers and was founded in autumn 2003. 
 
