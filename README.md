@@ -27,7 +27,7 @@ The goal is to develop a reference architecture for ECU software, which can over
 - [Concepts of ADAPTIVE AUTOSAR](#concepts)
 
 The AUTOSAR development partnership released the first version of the "Adaptive Platform" (Release 17-03)
-http://www.autosar.org/standards/adaptive-platform/release-17-03/
+www.autosar.org/standards/adaptive-platform/release-17-03/
 
 The current AUTOSAR specifications now consist of the traditional "Classic Platform", the new "Adaptive Platform" and the new "Foundation" (common specifications for Classic and Adaptive).
 <!-- /MarkdownTOC -->
