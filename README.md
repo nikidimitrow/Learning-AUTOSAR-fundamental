@@ -48,3 +48,5 @@ The Adaptive Platform is AUTOSAR’s solution for high-performance computing ECU
 
 ### Acceptance Tests for Classic Platform (AT)
 The standard Acceptance Tests for Classic Platform provides a compilation of test cases to support acceptance testing for a wide range of features of Classic Platform implementations.
+
+<a href = "https://cloud.githubusercontent.com/assets/10328871/25981946/30313856-36e1-11e7-9787-bcc85b65bdb5.png"> </a>
