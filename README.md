@@ -31,3 +31,20 @@ www.autosar.org/standards/adaptive-platform/release-17-03/
 
 The current AUTOSAR specifications now consist of the traditional "Classic Platform", the new "Adaptive Platform" and the new "Foundation" (common specifications for Classic and Adaptive).
 <!-- /MarkdownTOC -->
+
+# Standards
+
+## Overview
+
+### Foundation (FO)
+The purpose of the Foundation standard is to enforce interoperability between the AUTOSAR platforms.
+Foundation contains common requirements and technical specifications (e.g. protocols) shared between the AUTOSAR standards.
+
+### Classic Platform (CP)
+The Classic Platform is AUTOSAR’s solution for embedded systems with hard real-time and safety constraints.
+
+### Adaptive Platform (AP)
+The Adaptive Platform is AUTOSAR’s solution for high-performance computing ECUs to build fail-operational systems for use cases such as highly autonomous driving.
+
+### Acceptance Tests for Classic Platform (AT)
+The standard Acceptance Tests for Classic Platform provides a compilation of test cases to support acceptance testing for a wide range of features of Classic Platform implementations.
