@@ -4,7 +4,7 @@ AUTOSAR (Automotive Open System Architecture) is a standardization initiative of
 
 The goal is to develop a reference architecture for ECU software, which can overcome the growing complexity of software in modern vehicles.
 
-##AUTOSAR
+## AUTOSAR
 
 Paves the way for innovative electronic systems that further improve performance, safety and environmental friendliness
 
@@ -13,6 +13,14 @@ Is a strong global partnership that creates one common standard: "Cooperate on s
 Is a key enabling technology to manage growing electrical/electronic complexity. It aims to be prepared for the upcoming technologies and to improve cost-efficiency without making any compromise with respect to quality
 
 Facilitates the exchange and update of software and hardware over the service life of the vehicle
+
+## In a nutshell why AUTOSAR?
+
+a.       Demands for more services, security, economy and comfort.
+
+b.      Increase in complexity due to increase in number of ECUs and growth of software sharing and functionality.
+
+c.       More diverse set of hardware and networks
 
 ## Introduction
 
