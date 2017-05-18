@@ -1,1 +1,9 @@
-Basics Of AUTOSAR – Part 1
+#Basics Of AUTOSAR – Part 1
+
+AUTOSAR(AUTomotive Open System Architecture) is an open source layered   software development standard for, but not limited to, automotive Electronic Control Unit(ECU).
+
+AUTOSAR gives a layered top-down structure for software with relation between the software components.
+
+The layered architecture of AUTOSAR can be divided into Basic Software(BSW), Runtime Environment(RTE) and Application/Software Component layer.
+
+Basic Software layer can be further subdivided into Micro-controller Abstraction Layer(MCAL), ECU Abstraction Later, Services Layer and Complex Device Driver(CDD) Layer.
