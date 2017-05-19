@@ -14,6 +14,8 @@ Is a key enabling technology to manage growing electrical/electronic complexity.
 
 Facilitates the exchange and update of software and hardware over the service life of the vehicle
 
+The AUTOSAR standard will serve as a platform upon which future vehicle applications will be implemented and will also serve to minimize the current barriers between functional domains. It will, therefore, be possible to map functions and functional networks to different control nodes in the system, almost independently from the associated hardware.
+
 ## In a nutshell why AUTOSAR?
 
 a.       Demands for more services, security, economy and comfort.
