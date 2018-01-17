@@ -6,4 +6,9 @@ AUTOSAR gives a layered top-down structure for software with relation between th
 
 The layered architecture of AUTOSAR can be divided into Basic Software(BSW), Runtime Environment(RTE) and Application/Software Component layer.
 
-Basic Software layer can be further subdivided into Micro-controller Abstraction Layer(MCAL), ECU Abstraction Later, Services Layer and Complex Device Driver(CDD) Layer.
+Basic Software layer can be further subdivided into:
+
+1) Micro-controller Abstraction Layer(MCAL);
+2) ECU Abstraction Later;
+3) Services Layer; 
+4) Complex Device Driver(CDD) Layer.
