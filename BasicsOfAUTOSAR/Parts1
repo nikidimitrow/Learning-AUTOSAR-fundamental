@@ -1,6 +1,6 @@
 #Basics Of AUTOSAR – Part 1
 
-AUTOSAR(AUTomotive Open System Architecture) is an open source layered   software development standard for, but not limited to, automotive Electronic Control Unit(ECU).
+AUTOSAR(AUTomotive Open System Architecture) is an open source layered software development standard for, but not limited to, automotive Electronic Control Unit(ECU).
 
 AUTOSAR gives a layered top-down structure for software with relation between the software components.
 
