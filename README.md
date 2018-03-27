@@ -1,3 +1,4 @@
+
 /* FUNC macro for the declaration and definition of functions
    rettype     return type of the function
    memclass    classification of the function itself
