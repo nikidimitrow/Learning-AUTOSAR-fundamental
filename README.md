@@ -1,73 +1,73 @@
-# Learning AUTOSAR or how to get started with Automotive Open System Architecture
+/* FUNC macro for the declaration and definition of functions
+   rettype     return type of the function
+   memclass    classification of the function itself
+ */
+# define FUNC(rettype, memclass) rettype /* PRQA S 3410 */ /* MD_Compiler_19.10 */
 
-AUTOSAR (Automotive Open System Architecture) is a standardization initiative of leading automotive OEMs and suppliers and was founded in autumn 2003. 
+/* FUNC_P2CONST macro for declaration and definition of functions returning a pointer to a constant
+   rettype     return type of the function
+   ptrclass    defines the classification of the pointer's distance 
+   memclass    classification of the function itself
+ */
+# define FUNC_P2CONST(rettype, ptrclass, memclass) const rettype* /* PRQA S 3410 */ /* MD_Compiler_19.10 */
 
-The goal is to develop a reference architecture for ECU software, which can overcome the growing complexity of software in modern vehicles.
+/* FUNC_P2VAR macro for the declaration and definition of functions returning a pointer to a variable
+   rettype     return type of the function
+   ptrclass    defines the classification of the pointer's distance 
+   memclass    classification of the function itself
+ */
+# define FUNC_P2VAR(rettype, ptrclass, memclass) rettype* /* PRQA S 3410 */ /* MD_Compiler_19.10 */
 
-## AUTOSAR
+/* P2VAR macro for the declaration and definition of pointers in RAM, pointing to variables
+   ptrtype     type of the referenced variable memory class
+   memclass    classification of the pointer's variable itself
+   ptrclass    defines the classification of the pointer's distance
+ */
+# define P2VAR(ptrtype, memclass, ptrclass) ptrtype* /* PRQA S 3410 */ /* MD_Compiler_19.10 */
 
-Paves the way for innovative electronic systems that further improve performance, safety and environmental friendliness
+/* P2CONST macro for the declaration and definition of pointers in RAM, pointing to constants
+   ptrtype     type of the referenced data
+   memclass    classification of the pointer's variable itself
+   ptrclass    defines the classification of the pointer's distance
+ */
+# define P2CONST(ptrtype, memclass, ptrclass) const ptrtype* /* PRQA S 3410 */ /* MD_Compiler_19.10 */
 
-Is a strong global partnership that creates one common standard: "Cooperate on standards, compete on implementation"
+/* CONSTP2VAR macro for the declaration and definition of constant pointers accessing variables
+   ptrtype     type of the referenced data
+   memclass    classification of the pointer's variable itself
+   ptrclass    defines the classification of the pointer's distance
+ */
+# define CONSTP2VAR(ptrtype, memclass, ptrclass) ptrtype *const /* PRQA S 3410 */ /* MD_Compiler_19.10 */
 
-Is a key enabling technology to manage growing electrical/electronic complexity. It aims to be prepared for the upcoming technologies and to improve cost-efficiency without making any compromise with respect to quality
+/* CONSTP2CONST macro for the declaration and definition of constant pointers accessing constants
+   ptrtype     type of the referenced data
+   memclass    classification of the pointer's variable itself
+   ptrclass    defines the classification of the pointer's distance
+ */
+# define CONSTP2CONST(ptrtype, memclass, ptrclass) const ptrtype *const /* PRQA S 3410 */ /* MD_Compiler_19.10 */
 
-Facilitates the exchange and update of software and hardware over the service life of the vehicle
+/* P2FUNC macro for the type definition of pointers to functions
+   rettype     return type of the function
+   ptrclass    defines the classification of the pointer's distance
+   fctname     function name respectively name of the defined type
+ */
+# define P2FUNC(rettype, ptrclass, fctname) rettype (* fctname) /* PRQA S 3410 */ /* MD_Compiler_19.10 */
 
-The AUTOSAR standard will serve as a platform upon which future vehicle applications will be implemented and will also serve to minimize the current barriers between functional domains. It will, therefore, be possible to map functions and functional networks to different control nodes in the system, almost independently from the associated hardware.
+/* CONSTP2FUNC macro for the type definition of constant pointers to functions
+   rettype     return type of the function
+   ptrclass    defines the classification of the pointer's distance
+   fctname     function name respectively name of the defined type
+ */
+# define CONSTP2FUNC(rettype, ptrclass, fctname) rettype (*const fctname) /* PRQA S 3410 */ /* MD_Compiler_19.10 */
 
-## In a nutshell why AUTOSAR?
+/* CONST macro for the declaration and definition of constants
+   type        type of the constant
+   memclass    classification of the constant itself
+ */
+# define CONST(type, memclass) const type /* PRQA S 3410 */ /* MD_Compiler_19.10 */
 
-a.       Demands for more services, security, economy and comfort.
-
-b.      Increase in complexity due to increase in number of ECUs and growth of software sharing and functionality.
-
-c.       More diverse set of hardware and networks
-
-## Introduction
-
-<!-- MarkdownTOC depth=4 -->
-
-- [Overview and Objectives](#overview)
-  
-- [AUTOSAR Application](#application)
-   
-- [AUTOSAR RTE](#rte)
-    
-- [AUTOSAR BSW](#bsw)
-    
-- [AUTOSAR Methodology](#methodology)
-    
-- [AUTOSAR in Practice](#practice)
-    
-- [Implications and Migration](#implications)
-    
-- [Concepts of AUTOSAR 4.x](#concepts)
-   
-- [Concepts of ADAPTIVE AUTOSAR](#concepts)
-
-The AUTOSAR development partnership released the first version of the "Adaptive Platform" (Release 17-03)
-www.autosar.org/standards/adaptive-platform/release-17-03/
-
-The current AUTOSAR specifications now consist of the traditional "Classic Platform", the new "Adaptive Platform" and the new "Foundation" (common specifications for Classic and Adaptive).
-<!-- /MarkdownTOC -->
-
-# Standards
-
-## Overview
-
-### Foundation (FO)
-The purpose of the Foundation standard is to enforce interoperability between the AUTOSAR platforms.
-Foundation contains common requirements and technical specifications (e.g. protocols) shared between the AUTOSAR standards.
-
-### Classic Platform (CP)
-The Classic Platform is AUTOSAR’s solution for embedded systems with hard real-time and safety constraints.
-
-### Adaptive Platform (AP)
-The Adaptive Platform is AUTOSAR’s solution for high-performance computing ECUs to build fail-operational systems for use cases such as highly autonomous driving.
-
-### Acceptance Tests for Classic Platform (AT)
-The standard Acceptance Tests for Classic Platform provides a compilation of test cases to support acceptance testing for a wide range of features of Classic Platform implementations.
-
-![Alt text](https://cloud.githubusercontent.com/assets/10328871/25981946/30313856-36e1-11e7-9787-bcc85b65bdb5.png?raw=true)
- 
+/* VAR macro for the declaration and definition of variables
+   vartype     type of the variable
+   memclass    classification of the variable itself
+ */
+# define VAR(vartype, memclass) vartype /* PRQA S 3410 */ /* MD_Compiler_19.10 */
