@@ -9,7 +9,19 @@ The layered architecture of AUTOSAR can be divided into Basic Software(BSW), Run
 Basic Software layer can be further subdivided into:
 
 1) Micro-controller Abstraction Layer(MCAL) - Provided by microcontroller company (e.g. Infineon, Renesas and so on);
+ - MCAL shoud be integrated in Generator tools - Vector Configurator. 
+ Vector provide 3rd party integration program that will do the trick.
+ 
 2) ECU Abstraction Later - Provided by Vector Informatik or another vendor company;
+
 3) Services Layer - Provided by Vector Informatik or another vendor company; 
+
 4) Complex Device Driver(CDD) Layer - Create by owner of the ECU project.
+   CDD layer shoud be avoid - this mean really old component (develop really long and doesnt have any other place). Modern Autosar developing shoud avoid it.
+   
 5) .swc - Create by owner of the ECU project.
+  Matlab model. Please, avoid any C programing - use StateFlow.
+
+Autosar Basic layer is okey for embedded engineer. App layer is Model Base.
+
+If you enter in this area be sure to stay in a long term in automotive.
